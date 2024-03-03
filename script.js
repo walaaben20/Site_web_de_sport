@@ -1,11 +1,4 @@
-// Sélectionner le bouton
-var boutonAlerte = document.getElementById("bouton-alerte");
 
-// Ajouter un gestionnaire d'événement au clic sur le bouton
-boutonAlerte.addEventListener("click", function() {
-    // Afficher une boîte de dialogue avec un message d'alerte
-    alert("Bienvenue sur notre site de sport !");
-});
 // Sélectionner le formulaire
 var form = document.querySelector('form');
 
@@ -43,18 +36,4 @@ var searchInput = document.getElementById('searchInput');
 searchInput.addEventListener('click', function(event) {
     // Empêcher la propagation de l'événement pour ne pas fermer la barre de recherche
     event.stopPropagation();
-});
-// Sélectionner le bouton de bascule de thème
-var themeToggle = document.getElementById('themeToggle');
-
-// Ajouter un écouteur d'événement pour le clic sur le bouton de bascule de thème
-themeToggle.addEventListener('click', function() {
-    // Basculer entre les classes de thème clair et sombre sur le body
-    document.body.classList.toggle('dark-theme');
-    // Changer le texte du bouton en fonction du thème actuel
-    if (document.body.classList.contains('dark-theme')) {
-        themeToggle.textContent = 'Mode Clair';
-    } else {
-        themeToggle.textContent = 'Mode Sombre';
-    }
 });
