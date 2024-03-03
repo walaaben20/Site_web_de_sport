@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #2f7db8;
+    background-color: #3e6583;
     color:#362c8e
 }
 
 header {
-    background-color:#5887e5;
+    background-color:#3e6583;
     padding: 20px 0;
     text-align: center;
 }
@@ -22,7 +22,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #4576bb;
+    color: #3e6583;
     text-decoration: none;
     margin: 0 20px;
 }
@@ -56,7 +56,7 @@ footer {
 
 /* Ajouter un style au survol du bouton */
 #bouton-alerte:hover {
-    background-color: #347ebb; /* Rouge bordeaux un peu plus clair au survol */
+    background-color: #3e6583; /* Rouge bordeaux un peu plus clair au survol */
 }
 header {
     background-image: url('https://www.ownsport.fr/blog/wp-content/uploads/2020/02/Optimized-five-happy-teenage-kids-running-on-the-stadium-picture-id583849568.jpg'); /* Chemin vers votre image */
