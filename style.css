@@ -56,7 +56,7 @@ footer {
 
 /* Ajouter un style au survol du bouton */
 #bouton-alerte:hover {
-    background-color: #2f7ab7; /* Rouge bordeaux un peu plus clair au survol */
+    background-color: #1f5988; /* Rouge bordeaux un peu plus clair au survol */
 }
 header {
     background-image: url('https://www.ownsport.fr/blog/wp-content/uploads/2020/02/Optimized-five-happy-teenage-kids-running-on-the-stadium-picture-id583849568.jpg'); /* Chemin vers votre image */
