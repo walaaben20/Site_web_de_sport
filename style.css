@@ -45,7 +45,7 @@ footer {
 }
 /* Ajouter du style au bouton */
 #bouton-alerte {
-    background-color: #770000; /* Rouge bordeaux foncé */
+    background-color: #f59191; /* Rouge bordeaux foncé */
     color: #fff; /* Texte en blanc */
     padding: 10px 20px; /* Espacement intérieur */
     border: none; /* Supprimer la bordure */
@@ -59,7 +59,7 @@ footer {
     background-color: #880000; /* Rouge bordeaux un peu plus clair au survol */
 }
 header {
-    background-image: url('C:\Users\waelb\Desktop\site-web-sport\arriereplan.png'); /* Chemin vers votre image */
+    background-image: url('https://www.ownsport.fr/blog/wp-content/uploads/2020/02/Optimized-five-happy-teenage-kids-running-on-the-stadium-picture-id583849568.jpg'); /* Chemin vers votre image */
     background-size: cover; /* Redimensionner l'image pour couvrir tout l'en-tête */
     background-position: center; /* Centrer l'image */
     color: #fff; /* Texte en blanc */
