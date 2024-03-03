@@ -132,4 +132,9 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+/* Style pour le lien actif dans la barre de navigation */
+nav ul li a.active {
+    font-weight: bold;
+    /* Ajoutez d'autres styles pour le lien actif selon vos préférences */
+}
 

@@ -22,3 +22,17 @@ form.addEventListener('submit', function(event) {
     // Afficher un message de bienvenue
     alert('Bienvenue, ' + username + '! Vous êtes né le ' + birthdate + ' à ' + location + '.');
 });
+// Sélectionner tous les liens de la barre de navigation
+var navLinks = document.querySelectorAll('nav ul li a');
+
+// Ajouter un gestionnaire d'événement pour chaque lien
+navLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+        // Supprimer la classe 'active' de tous les liens
+        navLinks.forEach(function(link) {
+            link.classList.remove('active');
+        });
+        // Ajouter la classe 'active' au lien cliqué
+        link.classList.add('active');
+    });
+});
