@@ -164,4 +164,18 @@ body.dark-theme {
     background-color: #333; /* Couleur de fond pour le thème sombre */
     color: #fff; /* Couleur de texte pour le thème sombre */
 }
+/* Style pour le bouton de changement de mode */
+#themeToggle {
+    background-color: #3498db; /* Bleu pour le bouton */
+    color: #fff; /* Texte en blanc pour le bouton */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#themeToggle:hover {
+    background-color: #2980b9; /* Bleu un peu plus foncé au survol */
+}
 
