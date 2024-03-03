@@ -106,4 +106,30 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+/* Styles pour la barre de navigation */
+header {
+    background-color: #3498db; /* Bleu pour l'en-tête */
+    color: #fff; /* Texte en blanc pour l'en-tête */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
 
