@@ -43,3 +43,18 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Ajouter du style au bouton */
+#bouton-alerte {
+    background-color: #770000; /* Rouge bordeaux foncé */
+    color: #fff; /* Texte en blanc */
+    padding: 10px 20px; /* Espacement intérieur */
+    border: none; /* Supprimer la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointer */
+    font-size: 16px; /* Taille de police */
+}
+
+/* Ajouter un style au survol du bouton */
+#bouton-alerte:hover {
+    background-color: #880000; /* Rouge bordeaux un peu plus clair au survol */
+}
