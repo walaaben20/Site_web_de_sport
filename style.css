@@ -1,39 +1,68 @@
-/* Couleurs principales */
 body {
-    background-color: #eaf2f8; /* Bleu très clair pour le fond */
-    color: #333; /* Texte principal en noir */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2f7db8;
+    color:#fff
 }
 
 header {
-    background-color: #3498db; /* Bleu pour l'en-tête */
-    color: #fff; /* Texte en blanc pour l'en-tête */
+    background-color:#5887e5;
+    padding: 20px 0;
+    text-align: center;
 }
 
-nav a {
-    color: #fff; /* Texte blanc pour les liens de navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #4576bb;
+    text-decoration: none;
+    margin: 0 20px;
 }
 
 section {
-    background-color: #d5eaf9; /* Bleu clair pour les sections */
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #79a7dc;
+    border-radius: 5px;
+    max-width: 800px;
 }
 
 footer {
-    background-color: #3498db; /* Bleu pour le pied de page */
-    color: #fff; /* Texte en blanc pour le pied de page */
+    background-color: #5a62bb;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
-
-/* Bouton */
+/* Ajouter du style au bouton */
 #bouton-alerte {
-    background-color: #3498db; /* Bleu pour le bouton */
-    color: #fff; /* Texte en blanc pour le bouton */
-}
-#bouton-alerte:hover {
-    background-color: #2980b9; /* Bleu un peu plus foncé au survol */
+    background-color: #496dc6; /* Rouge bordeaux foncé */
+    color: #fff; /* Texte en blanc */
+    padding: 10px 20px; /* Espacement intérieur */
+    border: none; /* Supprimer la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointer */
+    font-size: 16px; /* Taille de police */
 }
 
-/* Arrière-plan de l'en-tête */
+/* Ajouter un style au survol du bouton */
+#bouton-alerte:hover {
+    background-color: #347ebb; /* Rouge bordeaux un peu plus clair au survol */
+}
 header {
-    background-image: url('votre_image.jpg'); /* Utilisez votre propre image */
-    background-size: cover;
-    background-position: center;
+    background-image: url('https://www.ownsport.fr/blog/wp-content/uploads/2020/02/Optimized-five-happy-teenage-kids-running-on-the-stadium-picture-id583849568.jpg'); /* Chemin vers votre image */
+    background-size: cover; /* Redimensionner l'image pour couvrir tout l'en-tête */
+    background-position: center; /* Centrer l'image */
+    color: #fff; /* Texte en blanc */
+    padding: 20px 0;
+    text-align: center;
 }
