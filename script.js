@@ -36,3 +36,11 @@ navLinks.forEach(function(link) {
         link.classList.add('active');
     });
 });
+// Sélectionner le champ de recherche
+var searchInput = document.getElementById('searchInput');
+
+// Ajouter un écouteur d'événement pour détecter le clic sur la barre de recherche
+searchInput.addEventListener('click', function(event) {
+    // Empêcher la propagation de l'événement pour ne pas fermer la barre de recherche
+    event.stopPropagation();
+});

@@ -137,4 +137,20 @@ nav ul li a.active {
     font-weight: bold;
     /* Ajoutez d'autres styles pour le lien actif selon vos préférences */
 }
+/* Style pour la barre de recherche */
+.search-bar input[type="text"] {
+    width: 0;
+    padding: 8px;
+    border: none;
+    background: #f2f2f2;
+    transition: width 0.4s ease;
+}
+
+.search-bar:hover input[type="text"] {
+    width: 150px;
+}
+
+.search-bar input[type="text"]:focus {
+    width: 150px;
+}
 
