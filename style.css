@@ -58,3 +58,11 @@ footer {
 #bouton-alerte:hover {
     background-color: #880000; /* Rouge bordeaux un peu plus clair au survol */
 }
+header {
+    background-image: url('C:\Users\waelb\Desktop\site-web-sport'); /* Chemin vers votre image */
+    background-size: cover; /* Redimensionner l'image pour couvrir tout l'en-tête */
+    background-position: center; /* Centrer l'image */
+    color: #fff; /* Texte en blanc */
+    padding: 20px 0;
+    text-align: center;
+}
