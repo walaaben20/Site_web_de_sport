@@ -153,4 +153,15 @@ nav ul li a.active {
 .search-bar input[type="text"]:focus {
     width: 150px;
 }
+/* Styles pour les deux thèmes */
+body {
+    background-color: #f0f0f0; /* Couleur de fond pour le thème clair */
+    color: #333; /* Couleur de texte pour le thème clair */
+}
+
+/* Styles spécifiques au thème sombre */
+body.dark-theme {
+    background-color: #333; /* Couleur de fond pour le thème sombre */
+    color: #fff; /* Couleur de texte pour le thème sombre */
+}
 
